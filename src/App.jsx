@@ -11,6 +11,7 @@ import {
 import article from 'data/article.json';
 import stats from 'data/stats.json';
 import forbes from 'data/forbes.json';
+import transactions from '/data/transactions.json';
 
 export const App = () => {
   return (
