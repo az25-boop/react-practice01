@@ -40,6 +40,7 @@ export const App = () => {
           price={transactions.price}
           amount={transactions.amount}
           date={transactions.date}
+          items={transactions}
         />
       </Container>
     </Section>

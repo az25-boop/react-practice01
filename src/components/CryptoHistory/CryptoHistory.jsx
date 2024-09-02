@@ -1,7 +1,7 @@
 const tableHeaders = ['№', 'price', 'amount', 'date'];
 import style from './CryptoHistory.module.css';
 
-export const CryptoHistory = (id, price, amount, date) => {
+export const CryptoHistory = ({ id, price, amount, date }) => {
   return (
     <table className={style.table}>
       <thead className={style.thead}>
@@ -25,6 +25,18 @@ export const CryptoHistory = (id, price, amount, date) => {
           <td className={style.price}>3195</td>
           <td className={style.amount}>0.088</td>
           <td className={style.date}>05/09/2022, 2:24 PM</td>
+        </tr>
+        <tr className={style.tr}>
+          <td className={style.id}>3</td>
+          <td className={style.price}>6190</td>
+          <td className={style.amount}>0.24843</td>
+          <td className={style.date}>02/10/2022, 1:14 PM</td>
+        </tr>
+        <tr className={style.tr}>
+          <td className={style.id}>4</td>
+          <td className={style.price}>10195</td>
+          <td className={style.amount}>0.088</td>
+          <td className={style.date}>05/09/2023, 2:24 PM</td>
         </tr>
       </tbody>
     </table>
